@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="shortcut icon" href=""/>
+  <title>Landing Page</title>
+</head>
+<body>
+	<!-- NAVIGATION -->
+  <div id="container" class="container">
+		<nav class="navbar">
+			<a class="nav__item">Brand</a>
+			<a class="nav__item">Home</a>
+			<a class="nav__item">Link</a>
+			<a class="nav__item">Link</a>	
+		</nav>
+
+		<!-- BANNER INFORMATION -->
+		<div class="section">
+		 <h1 id="title">Hello, World!</h1>
+		 <h2>This is a <span class="highlight">simple hero</span> unit, a simple </h2>
+		 <br><h2>jumbotro-style <span class="highlight">component</span> for calling extra</h2>
+		 <br><h2>attention to featured <span class="highlight">content</span> or <span class="highlight">information</span>.</h2>
+		 <a href="#" class="bttn">Learn more</a>
+
+		 <!-- SLIDER PICS -->
+		 	<div class="banner">
+				<img id="banner" src="./assets/images/cartoon-virtual-reality.png">
+				<div class="button one" id="one" onclick="oneButton()"></div>
+				<div class="button two" id="two" onclick="twoButton()"></div>
+				<div class="button three" id="three" onclick="threeButton()"></div>
+			</div>
+		</div>
+	</div>
+	<!-- ARTICLES -->
+	<div id="container2" class="container2">
+		<section id="middle" class="articles__midle">
+			<article class="content_1">
+				<img src="./assets/images/trees-night.png">
+				<h2 class="title_artcile">Heading</h2>
+					<p>Cras justo odio, dapibus ac facilisis in,<br>
+						egestas eget quam. Donec id elit non mi<br>
+						porta gravida at eget metus.</p><br>
+			</article>
+			<article class="content_2">
+				<img src="./assets/images/camping-night.png">
+				<h2 class="title_artcile">Heading</h2>
+					<p>Cras justo odio, dapibus ac facilisis in,<br>
+						egestas eget quam. Donec id elit non mi<br>
+						porta gravida at eget metus.</p><br>
+			</article>
+			<article class="content_3">
+				<img src="./assets/images/jungle-night.png">
+				<h2 class="title_artcile">Heading</h2>
+					<p>Cras justo odio, dapibus ac facilisis in,<br>
+						 egestas eget quam. Donec id elit non mi<br>
+						 porta gravida at eget metus.</p><br>
+			</article>
+		</section>
+	</div>
+
+	<!-- GSAP -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+	<!-- JAVASCRIPT -->
+	<script src="./assets/js/main.js"></script>
+</body>
+</html>
